@@ -3,7 +3,7 @@ let container = document.getElementsByTagName("lead");
 let time = moment().hours();
 let date = moment().format("dddd, MMMM,  h:mm a");
 let currentDate = document.querySelector("#lead");
-let hour = moment().format("h");
+//let hour = moment().format("h"); decided to use time
 
 let t1 = document.getElementById("t1");
 let t2 = document.getElementById("t2");
@@ -23,7 +23,7 @@ console.log(time);
 console.log(date);
 console.log(hour);
 
-if (t1 = )
+if (time > )
 
 
 t1.setAttribute("style", "background-color: red;" );
